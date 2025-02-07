@@ -1,0 +1,148 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+ .body   {
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav {
+
+
+    background-color: rgb(194 142 255 / 78%);
+    width: 1527px;
+    display: flex;
+    margin-top: 0 px;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+
+
+
+
+ul  {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 215px;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 22px;
+}
+
+ul a:hover {
+    color: rgb(13, 128, 132);
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 1500px;
+    width: 1527px;
+}
+
+.container {
+    height: 700px;
+    width: 500px;
+    background-color: rgb(63, 154, 219);
+    border: 2px;
+    border: 2px solid black;
+    position: relative;
+    margin-left: 450px;
+    margin-top: 120px;
+}
+
+@media screen and  (max-width: 378px) {
+    .container{ float:left;
+    }}
+
+   
+.card {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+    gap: 12px;
+    align-items: center;
+}
+
+
+#fname {
+
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 22px;
+    color: black;
+    opacity: 1;
+    border: 1px solid blue;
+    background-color: rgb(216, 209, 209);
+}
+
+.button {
+    padding-left: 13px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 13px;
+    border-radius: 20px;
+    color: black;
+    opacity: 1;
+    border: 1px solid rgb(9, 9, 9);
+    background-color: rgb(163, 162, 224);
+    transition: width 2s;
+}
+
+.button:hover {
+    background-color: rgb(88, 74, 213);
+    color: black;
+    cursor: pointer;
+    width: 90px;
+}
+
+
+
+#img {
+    margin-left: 133px;
+    margin-top: 62px;
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22px;
+    gap: 22px;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.col1{ 
+     display: flex;
+     align-items: center;
+     align-items: center;
+     gap: 2px ;
+     
+
+}
+.col2{ 
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 2px ;
+
+}
